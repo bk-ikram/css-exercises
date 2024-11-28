@@ -34,6 +34,13 @@ input {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 17px;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #eeeeee;
 }
 
@@ -42,15 +49,24 @@ ul{
     margin: 0;
     list-style-type: none;
     display: flex;
-    gap: 5px;
+    gap: 15px;
+    text-decoration: none;
 
 }
 
-a{
+a:link{
   text-decoration: none;
+  color: #666;
 }
 
 .content{
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+button{
+  padding: 8px 16px;
 }

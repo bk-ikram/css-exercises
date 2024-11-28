@@ -20,10 +20,39 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-shrink: 0;
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
+  align-content: center;
+  width: 300px;
+  padding: 
+}
+
+.content{
+  display: flex;
+}
+
+ul{
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  padding: 0;
+  gap: 15px;
+}
+
+a:link{
+  text-decoration: none;
+  color: white;
+  font-size: 23px;
+}
+
+.cards{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+
 }
