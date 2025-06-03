@@ -135,9 +135,11 @@ ul{
   display: grid;
   grid-auto-flow: row;
   gap: 50px;
-  align-content: center;
 }
 
+.sidebar div{
+  align-content: center;
+}
 
 .nav{
   grid-area:nav;
@@ -152,12 +154,13 @@ ul{
 .article{
   grid-area:article;
   display: grid;
-  grid-template-columns: repeat(auto-fit,minmax(250px 1fr));
-  grid-template-rows: repeat(auto-fit,200px);
-  grid-auto-flow: column;
+  grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
   gap: 15px;
 }
 
+.article div{
+  height: 200px;
+}
 
 .footer{
   grid-area:footer;
